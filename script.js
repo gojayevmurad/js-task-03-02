@@ -6,36 +6,29 @@
 // XXX
 // X
 
-// let num = 31,
-//   a = "";
-// var countX = 1;
-
+// let num = +prompt("Enter number:");
 // function createRomb(num) {
-//   if (num % 2 == 0) return false;
+//   var a = "",
+//     countX = 1;
+//   if (num % 2 == 0 || num < 1) return false;
 //   for (let row = 1; row <= num; row++) {
+//     for (var space = 0; space < (num - countX) / 2; space++) {
+//       a += " ";
+//     }
+//     for (let x = 0; x < countX; x++) {
+//       a += "x";
+//     }
 //     if (row <= Math.floor(num / 2)) {
-//       for (var space = 0; space < (num - countX) / 2; space++) {
-//         a += " ";
-//       }
-//       for (let x = 0; x < countX; x++) {
-//         a += "x";
-//       }
 //       countX += 2;
 //       a += "\n";
 //     } else {
-//       for (var space = 0; space < (num - countX) / 2; space++) {
-//         a += " ";
-//       }
-//       for (let x = 0; x < countX; x++) {
-//         a += "x";
-//       }
 //       countX -= 2;
 //       a += "\n";
 //     }
 //   }
+//   return a;
 // }
-// createRomb(num);
-// console.log(a);
+// console.log(createRomb(num));
 
 // 2 eded olsun (a, b). 3cu ededi istifade etmeden ededlerin yerini deyisin.
 
